@@ -1,0 +1,15 @@
+{
+  "id": "<bot username>",
+  "token": "<bot token>",
+  "webhook": {
+    "url": "<bot webhook url>",
+    "max_connections": 10,
+    "allowed_updates": [
+      "message",
+      "inline_query",
+      "chosen_inline_result"
+    ]
+  },
+  "ip": "0.0.0.0",
+  "port": 8080 
+}

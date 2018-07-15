@@ -1,0 +1,16 @@
+{
+  "name": "tgbot",
+  "version": "0.0.1",
+  "description": "telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo 42"
+  },
+  "author": "ZunSThy <zunsthy@gmail.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "bl": "^2.0.1",
+    "simple-get": "^3.0.2"
+  }
+}
