@@ -21,7 +21,7 @@ module.exports = (data, cb) => {
       reply_to_message_id: message_id,
       disable_web_page_preview: true,
       disable_notification: true,
-      text: '\u6B22\u8FCE ' + name + '\u5165\u7FA4',
+      text: '\u6B22\u8FCE ' + name + ' \u5165\u7FA4',
     }, cb);
   });
 };
