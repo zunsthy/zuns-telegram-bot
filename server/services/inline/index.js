@@ -1,4 +1,4 @@
-const callapi = require('../callapi');
+const callapi = require('../../callapi');
 
 module.exports = (data, cb) => {
   const { id, query } = data;
@@ -19,4 +19,3 @@ module.exports = (data, cb) => {
 
   callapi('answerInlineQuery', ans, cb);
 };
-
